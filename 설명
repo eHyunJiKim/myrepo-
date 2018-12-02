@@ -3,4 +3,4 @@ import textract 을 사용하여 150828_보도자료(묻지마_범죄_대책_관
 
 import requests를 사용하여 묻지마 범죄자의 특징과 이러한 범죄의 원인을 알아보기 위해 두 신문기사 https://news.joins.com/article/21615113(묻지마 범죄의 원인을 범죄자가 자라온 사회에서 찾는 신문기사), http://monthly.chosun.com/client/news/viw.asp?ctcd=C&nNewsNumb=200812100052&page=26(묻지마 범죄자의 심리에 관련된 기사)를 r.text를 통해서 볼러왔다. 
 
-import requests를 사용하여 묻지마 범죄의 피의자를 만드는 원인을 알아보기 위해 신문기사 http://news.chosun.com/site/data/html_dir/2009/07/25/2009072500040.html 에서 data.find와 data.rfind를 통해 begin과 end를 설정하고, indexing을 통해서 특정한 문장을 불러왔고,IMF때의 가정해체가 주요 원인으로 밝혀졌다.          
+import requests를 사용하여 묻지마 범죄의 피의자를 만드는 원인을 알아보기 위해 신문기사 http://news.chosun.com/site/data/html_dir/2009/07/25/2009072500040.html 에서 data.find와 data.rfind를 통해 begin과 end를 설정하고, 을 통해서 특정한 문장을 불러왔고,IMF때의 가정해체가 주요 원인으로 밝혀졌다.          
